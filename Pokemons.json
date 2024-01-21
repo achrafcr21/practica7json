@@ -1,53 +1,85 @@
 {
-  "devices": [
+  "pokemons": [
     {
-      "device_type": "computer",
-      "name": "Matebook",
-      "company": "Huawei",
-      "inches": 13,
-      "stock": true,
-      "price": {
-        "currency": "euro",
-        "preu": 780
+      "id": 1,
+      "nombre": "Charizard",
+      "tipos": ["Fuego", "Volador"],
+      "peso": {
+        "valor": 90,
+        "unidad": "kg"
       },
-      "internal_info": "C:/Documents/files/matebook.json"
+      "altura": {
+        "valor": 1.7,
+        "unidad": "m"
+      },
+      "estadisticas": {
+        "velocidad": 100,
+        "fuerza": 84,
+        "precision": 78,
+        "resistencia": 80
+      },
+      "movimientos": [
+        {
+          "nombre": "Lanzallamas",
+          "descripcion": "Exhala fuego ardiente sobre el oponente.",
+          "potencia": 90,
+          "contacto": true
+        },
+        {
+          "nombre": "Giro Fuego",
+          "descripcion": "Gira y lanza fuego a su alrededor.",
+          "potencia": 75,
+          "contacto": true
+        }
+      ],
+      "imagen": "https://images.wikidexcdn.net/mwuploads/wikidex/9/95/latest/20160817212623/Charizard.png",
+      "evoluciones": {
+
+        "id": 3,
+        "nombre": "Charmeleon",
+        "nivel": 16
+      }
+
+
     },
     {
-      "device_type": "computer",
-      "name": "Titan",
-      "company": "Slimbook",
-      "inches": 15.6,
-      "stock": true,
-      "price": {
-        "currency": "$",
-        "preu": 1949
+      "id": 2,
+      "nombre": "Blastoise",
+      "tipos": ["Agua"],
+      "peso": {
+        "valor": 85,
+        "unidad": "kg"
       },
-      "slogan": "We've proposed 2 slogans: \"Slimbook Titan: Unleash Power in Every Pixel\" OR \"Slimbook Titan: Powerhouse Performance\""
-    },
-    {
-      "device_type": "Tablet",
-      "name": "Matepad",
-      "company": "Huawei",
-      "inches": 10.4,
-      "stock": false,
-      "price": {
-        "currency": "euro",
-        "preu": null
+      "altura": {
+        "valor": 1.6,
+        "unidad": "m"
       },
-      "caracteristiques": null
-    },
-    {
-      "device_type": "smartphone",
-      "name": "P50 Pocket",
-      "company": "Huawei",
-      "inches": 9,
-      "stock": true,
-      "price": {
-        "currency": "euro",
-        "descount": "3%",
-        "preu": 999
+      "estadisticas": {
+        "velocidad": 78,
+        "fuerza": 85,
+        "precision": 82,
+        "resistencia": 88
       },
-      "caracteristiques": ["5000mAh battery", "Super AMOLED plus", "USB-C"]
+      "movimientos": [
+        {
+          "nombre": "Hidrobomba",
+          "descripcion": "Dispara un potente chorro de agua al oponente.",
+          "potencia": 95,
+          "contacto": true
+        },
+        {
+          "nombre": "Surf",
+          "descripcion": "Genera una ola para golpear a todos los oponentes.",
+          "potencia": 80,
+          "contacto": false
+        }
+      ],
+      "imagen": "https://images.wikidexcdn.net/mwuploads/wikidex/4/41/latest/20200411222955/Blastoise.png",
+      "evoluciones":{
+        "id": 4,
+        "nombre": "baltasar",
+        "nivel": 20
+      }
     }
   ]
 }
